@@ -13,7 +13,7 @@ namespace HeThongQuanLyKyTucXa
 {
     public partial class Login : Form
     {
-        string connStr = @"Data Source=DELL\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=True";
+        string connStr = @"Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True";
         SqlConnection conn = null;
         public Login()
         {

@@ -12,7 +12,7 @@ namespace HeThongQuanLyKyTucXa
 {
     public partial class Dashboard : Form
     {
-        Login form1 = new Login();
+        Login Login = new Login();
         string role;
         string currentUser;
         public Dashboard(string chucvu, string userNameLogin)
@@ -25,7 +25,7 @@ namespace HeThongQuanLyKyTucXa
         private void buttonLogout_Click(object sender, EventArgs e)
         { 
             this.Close();
-            form1.Show();
+            Login.Show();
         }
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)

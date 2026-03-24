@@ -15,7 +15,7 @@ namespace HeThongQuanLyKyTucXa
     {
         Form formTruoc;
         string username;
-        string connStr = @"Data Source=DELL\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=True";
+        string connStr = @"Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True";
         SqlConnection conn = null;
         public ThongTinTK(Form formBefore, string userNameDB)
         {

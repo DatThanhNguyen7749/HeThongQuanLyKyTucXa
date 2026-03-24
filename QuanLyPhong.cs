@@ -1,220 +1,378 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace HeThongQuanLyKyTucXa
+namespace QuanLyPhong
 {
     public partial class QuanLyPhong : Form
     {
-        Form formTruoc;
-        public QuanLyPhong(Form formBefore)
+        string connStr = @"Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True";
+
+        public QuanLyPhong()
         {
             InitializeComponent();
-            formTruoc = formBefore;
+
+            this.Load += QuanLyPhong_Load;
+            dataGridView1.CellClick += dataGridView1_CellClick;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        // ================= LOAD FORM =================
+        private void QuanLyPhong_Load(object sender, EventArgs e)
         {
+            TrangThai.Items.Clear();
+            TrangThai.Items.Add("Kích hoạt");
+            TrangThai.Items.Add("Hủy kích hoạt");
 
-            if (dataGridView1.CurrentRow == null || dataGridView1.CurrentRow.IsNewRow)
-            {
-                MessageBox.Show("Vui lòng chọn dòng cần xóa!");
-                return;
-            }
+            LoaiPhong.Items.Clear();
+            LoaiPhong.Items.Add("Nam");
+            LoaiPhong.Items.Add("Nữ");
 
-            DialogResult result = MessageBox.Show(
-                "Bạn có chắc muốn xóa không?",
-                "Xác nhận",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
-                dataGridView1.Rows.Remove(dataGridView1.CurrentRow);
-            }
+            CapNhatSoLuongSinhVien();
+            LoadData();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // ================= CẬP NHẬT SỐ LƯỢNG SV =================
+        void CapNhatSoLuongSinhVien()
         {
-            if (string.IsNullOrWhiteSpace(textBox1.Text))
+            try
             {
-                MessageBox.Show("Mã phòng không được để trống!",
-                                "Thông báo",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Warning);
-                textBox1.Focus();
-                return;
-            }
-
-            // Kiểm tra Tình trạng
-            if (comboBox1.SelectedIndex == -1)
-            {
-                MessageBox.Show("Vui lòng chọn tình trạng!",
-                                "Thông báo",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Warning);
-                comboBox1.Focus();
-                return;
-            }
-
-            bool tinhTrang = comboBox1.Text == "Kích hoạt";
-            dataGridView1.Rows.Add(
-            textBox1.Text,
-            tinhTrang,1 ,8);
-            textBox1.Clear();
-            comboBox1.SelectedIndex = -1;
-        }
-
-        bool KiemTraMaPhong(string maPhong)
-        {
-            foreach (DataGridViewRow row in dataGridView1.Rows)
-            {
-                if (row.Cells["Column1"].Value != null &&
-                    row.Cells["Column1"].Value.ToString() == maPhong)
+                using (SqlConnection conn = new SqlConnection(connStr))
                 {
-                    return true;
+                    conn.Open();
+
+                    string query = @"
+                    UPDATE phong
+                    SET so_luong_sv = (
+                        SELECT COUNT(*)
+                        FROM hop_dong
+                        WHERE hop_dong.phong_id = phong.id
+                    )";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.ExecuteNonQuery();
                 }
             }
-            return false;
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi cập nhật số lượng sinh viên: " + ex.Message);
+            }
         }
 
-        private void Cell_Click(object sender, DataGridViewCellEventArgs e)
+        // ================= LOAD DATA =================
+        void LoadData()
         {
-            if (e.RowIndex < 0) return;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connStr))
+                {
+                    conn.Open();
+
+                    string query = @"SELECT 
+                                    ma_phong,
+                                    trang_thai,
+                                    loai_phong,
+                                    so_dien,
+                                    so_nuoc,
+                                    so_luong_sv,
+                                    suc_chua
+                                    FROM phong";
+
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    dataGridView1.DataSource = dt;
+                    FormatDGV();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi load: " + ex.Message);
+            }
+        }
+
+        // ================= FORMAT =================
+        void FormatDGV()
+        {
+            if (dataGridView1.Columns.Count == 0) return;
+
+            dataGridView1.Columns["ma_phong"].HeaderText = "Mã phòng";
+            dataGridView1.Columns["trang_thai"].HeaderText = "Trạng thái";
+            dataGridView1.Columns["loai_phong"].HeaderText = "Loại phòng";
+            dataGridView1.Columns["so_dien"].HeaderText = "Số điện";
+            dataGridView1.Columns["so_nuoc"].HeaderText = "Số nước";
+            dataGridView1.Columns["so_luong_sv"].HeaderText = "Số lượng SV";
+            dataGridView1.Columns["suc_chua"].HeaderText = "Sức chứa";
+
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
+
+        // ================= CLICK =================
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0)
+            {
+                MessageBox.Show("Vui lòng chọn dòng hợp lệ!");
+                return;
+            }
 
             DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
-            string maPhong = row.Cells["Column1"].Value?.ToString();
-
-            if (!KiemTraMaPhong(maPhong))
+            if (row.IsNewRow || row.Cells["ma_phong"].Value == null)
             {
-                MessageBox.Show("Mã phòng không tồn tại!",
-                                "Thông báo",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Warning);
+                MessageBox.Show("Dòng không hợp lệ!");
                 return;
             }
 
-            if (row.Cells["Column1"].Value != null)
-                textBox1.Text = row.Cells["Column1"].Value.ToString();
-            else
-                textBox1.Clear();
-
-            // Tình trạng
-            bool tinhTrang = false;
-
-            if (row.Cells["Column2"].Value != null &&
-                row.Cells["Column2"].Value != DBNull.Value)
-            {
-                bool.TryParse(row.Cells["Column2"].Value.ToString(), out tinhTrang);
-            }
-
-            comboBox1.SelectedIndex = tinhTrang ? 0 : 1;
+            MaPhong.Text = row.Cells["ma_phong"].Value.ToString();
+            TrangThai.Text = row.Cells["trang_thai"].Value.ToString();
+            LoaiPhong.Text = row.Cells["loai_phong"].Value.ToString();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        // ================= VALIDATE =================
+        bool ValidateInput()
         {
-            this.Close();
-            formTruoc.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            string maPhong = textBox1.Text.Trim();
-            int trangThaiIndex = comboBox1.SelectedIndex;
-
-            if (string.IsNullOrEmpty(maPhong) && trangThaiIndex == -1)
+            if (string.IsNullOrWhiteSpace(MaPhong.Text) ||
+                string.IsNullOrWhiteSpace(TrangThai.Text) ||
+                string.IsNullOrWhiteSpace(LoaiPhong.Text))
             {
-                MessageBox.Show("Vui lòng nhập Mã phòng hoặc chọn Tình trạng!");
-                return;
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+                return false;
             }
 
-            bool timThay = false;
-
-            foreach (DataGridViewRow row in dataGridView1.Rows)
+            if (!int.TryParse(MaPhong.Text, out _))
             {
-                if (row.IsNewRow) continue;
+                MessageBox.Show("Mã phòng phải là số!");
+                return false;
+            }
 
-                string ma = row.Cells["Column1"].Value?.ToString() ?? "";
+            return true;
+        }
 
-                bool tinhTrang = false;
-                if (row.Cells["Column2"].Value != null)
-                    tinhTrang = Convert.ToBoolean(row.Cells["Column2"].Value);
+        // ================= CLEAR =================
+        void ClearForm()
+        {
+            MaPhong.Clear();
+            TrangThai.SelectedIndex = -1;
+            LoaiPhong.SelectedIndex = -1;
+        }
 
-                bool match = true;
+        // ================= THÊM =================
+        private void buttonThem_Click(object sender, EventArgs e)
+        {
+            if (!ValidateInput()) return;
 
-                // kiểm tra mã phòng
-                if (!string.IsNullOrEmpty(maPhong))
-                    match = match && ma == maPhong;
-
-                // kiểm tra tình trạng
-                if (trangThaiIndex != -1)
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connStr))
                 {
-                    bool trangThaiCanTim = trangThaiIndex == 0; // 0 = kích hoạt, 1 = hủy
-                    match = match && tinhTrang == trangThaiCanTim;
+                    conn.Open();
+
+                    string check = "SELECT COUNT(*) FROM phong WHERE ma_phong=@ma";
+                    SqlCommand cmdCheck = new SqlCommand(check, conn);
+                    cmdCheck.Parameters.AddWithValue("@ma", MaPhong.Text);
+
+                    int count = (int)cmdCheck.ExecuteScalar();
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Mã phòng đã tồn tại!");
+                        return;
+                    }
+
+                    string query = @"INSERT INTO phong
+                    (ma_phong, so_dien, loai_phong, so_nuoc, trang_thai, so_luong_sv, suc_chua)
+                    VALUES (@ma, 0, @loai, 0, @trangthai, 0, 8)";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@ma", MaPhong.Text);
+                    cmd.Parameters.AddWithValue("@loai", LoaiPhong.Text);
+                    cmd.Parameters.AddWithValue("@trangthai", TrangThai.Text);
+
+                    cmd.ExecuteNonQuery();
                 }
 
-                row.Visible = match;
-
-                if (match) timThay = true;
+                MessageBox.Show("Thêm thành công!");
+                CapNhatSoLuongSinhVien();
+                LoadData();
+                ClearForm();
             }
-
-            if (!timThay)
-                MessageBox.Show("Không tìm thấy dữ liệu!");
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thêm: " + ex.Message);
+            }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        // ================= SỬA =================
+        private void buttonSua_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.CurrentRow == null)
+            if (dataGridView1.CurrentRow == null || dataGridView1.CurrentRow.IsNewRow)
             {
-                MessageBox.Show("Vui lòng chọn dòng cần sửa!");
+                MessageBox.Show("Chọn dòng hợp lệ!");
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace(textBox1.Text))
+            if (!ValidateInput()) return;
+
+            try
             {
-                MessageBox.Show("Mã phòng không được để trống!");
-                textBox1.Focus();
-                return;
-            }
+                using (SqlConnection conn = new SqlConnection(connStr))
+                {
+                    conn.Open();
 
-            if (comboBox1.SelectedIndex == -1)
+                    string query = @"UPDATE phong 
+                                     SET loai_phong=@loai,
+                                         trang_thai=@trangthai
+                                     WHERE ma_phong=@ma";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@ma", MaPhong.Text);
+                    cmd.Parameters.AddWithValue("@loai", LoaiPhong.Text);
+                    cmd.Parameters.AddWithValue("@trangthai", TrangThai.Text);
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Cập nhật thành công!");
+                CapNhatSoLuongSinhVien();
+                LoadData();
+                ClearForm();
+            }
+            catch (Exception ex)
             {
-                MessageBox.Show("Vui lòng chọn tình trạng!");
-                comboBox1.Focus();
-                return;
+                MessageBox.Show("Lỗi sửa: " + ex.Message);
             }
-
-            DataGridViewRow row = dataGridView1.CurrentRow;
-
-            bool tinhTrang = comboBox1.SelectedIndex == 0;
-
-            row.Cells["Column1"].Value = textBox1.Text;
-            row.Cells["Column2"].Value = tinhTrang;
-
-            MessageBox.Show("Cập nhật thành công!");
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        // ================= XÓA =================
+        private void buttonXoa_Click(object sender, EventArgs e)
         {
-            // Hiện lại tất cả rows
-            foreach (DataGridViewRow row in dataGridView1.Rows)
+            if (dataGridView1.CurrentRow == null || dataGridView1.CurrentRow.IsNewRow)
             {
-                if (!row.IsNewRow)
-                    row.Visible = true;
+                MessageBox.Show("Chọn dòng hợp lệ!");
+                return;
             }
 
-            // Clear ô nhập
-            textBox1.Clear();
-            comboBox1.SelectedIndex = -1;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connStr))
+                {
+                    conn.Open();
 
-            // Bỏ chọn dòng
-            dataGridView1.ClearSelection();
+                    // lấy id phòng
+                    string getId = "SELECT id FROM phong WHERE ma_phong=@ma";
+                    SqlCommand cmdGet = new SqlCommand(getId, conn);
+                    cmdGet.Parameters.AddWithValue("@ma", MaPhong.Text.Trim());
+
+                    object result = cmdGet.ExecuteScalar();
+
+                    if (result == null)
+                    {
+                        MessageBox.Show("Không tìm thấy phòng!");
+                        return;
+                    }
+
+                    int phongId = Convert.ToInt32(result);
+
+                    // kiểm tra có hợp đồng không
+                    string checkHopDong = "SELECT COUNT(*) FROM hop_dong WHERE phong_id=@id";
+                    SqlCommand cmdCheck = new SqlCommand(checkHopDong, conn);
+                    cmdCheck.Parameters.AddWithValue("@id", phongId);
+
+                    int count = (int)cmdCheck.ExecuteScalar();
+
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Phải xóa hợp đồng trước!");
+                        return;
+                    }
+
+                    // nếu không có hợp đồng thì hỏi xác nhận
+                    DialogResult r = MessageBox.Show("Bạn có chắc muốn xóa?", "Xác nhận", MessageBoxButtons.YesNo);
+
+                    if (r == DialogResult.No) return;
+
+                    // xóa phòng
+                    string deletePhong = "DELETE FROM phong WHERE id=@id";
+                    SqlCommand cmdPhong = new SqlCommand(deletePhong, conn);
+                    cmdPhong.Parameters.AddWithValue("@id", phongId);
+
+                    cmdPhong.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Xóa thành công!");
+                CapNhatSoLuongSinhVien();
+                LoadData();
+                ClearForm();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi xóa: " + ex.Message);
+            }
+        }
+        // ================= TÌM KIẾM =================
+        private void buttonTimKiem_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(MaPhong.Text) &&
+                string.IsNullOrWhiteSpace(LoaiPhong.Text) &&
+                string.IsNullOrWhiteSpace(TrangThai.Text))
+            {
+                MessageBox.Show("Nhập ít nhất 1 điều kiện tìm kiếm!");
+                return;
+            }
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connStr))
+                {
+                    conn.Open();
+
+                    string query = @"SELECT 
+                                    ma_phong,
+                                    trang_thai,
+                                    loai_phong,
+                                    so_dien,
+                                    so_nuoc,
+                                    so_luong_sv,
+                                    suc_chua
+                                    FROM phong WHERE 
+                                    (@ma = '' OR ma_phong = @ma)
+                                    AND (@loai = '' OR loai_phong = @loai)
+                                    AND (@trangthai = '' OR trang_thai = @trangthai)";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@ma", MaPhong.Text.Trim());
+                    cmd.Parameters.AddWithValue("@loai", LoaiPhong.Text.Trim());
+                    cmd.Parameters.AddWithValue("@trangthai", TrangThai.Text.Trim());
+
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("Không tìm thấy dữ liệu!");
+                        dataGridView1.DataSource = null;
+                        return;
+                    }
+
+                    dataGridView1.DataSource = dt;
+                    FormatDGV();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tìm kiếm: " + ex.Message);
+            }
+        }
+
+        // ================= RELOAD =================
+        private void buttonReload_Click(object sender, EventArgs e)
+        {
+            CapNhatSoLuongSinhVien();
+            LoadData();
+            ClearForm();
         }
     }
-    }
+}

@@ -1,4 +1,4 @@
-﻿namespace QuanLyPhong
+﻿namespace HeThongQuanLyKyTucXa
 {
     partial class QuanLyPhong
     {

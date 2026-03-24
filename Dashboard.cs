@@ -76,7 +76,7 @@ namespace HeThongQuanLyKyTucXa
 
         private void buttonQuanLyPhong_Click(object sender, EventArgs e)
         {
-            QuanLyPhong qlp = new QuanLyPhong(this);
+            QuanLyPhong qlp = new QuanLyPhong();
             qlp.Show();
         }
 

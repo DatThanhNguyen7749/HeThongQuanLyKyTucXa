@@ -35,7 +35,8 @@ namespace HeThongQuanLyKyTucXa
 
         private void buttonQLSV_Click(object sender, EventArgs e)
         {
-
+            QuanLySinhVien qlsv = new QuanLySinhVien();
+            qlsv.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

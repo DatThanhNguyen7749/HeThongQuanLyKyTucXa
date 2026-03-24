@@ -4,11 +4,11 @@ using Microsoft.Data.SqlClient;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace QuanLySinhVien
+namespace HeThongQuanLyKyTucXa
 {
     public partial class QuanLySinhVien : Form
     {
-        string connStr = @"Data Source=DESKTOP-3LV16NF;Initial Catalog=KTX;Integrated Security=True;Encrypt=False;TrustServerCertificate=True";
+        string connStr = @"Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True;Encrypt=False;TrustServerCertificate=True";
 
         int currentID = -1;
 

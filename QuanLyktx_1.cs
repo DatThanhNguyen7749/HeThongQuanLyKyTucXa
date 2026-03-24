@@ -10,13 +10,13 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 
-namespace WindowsFormsApp3
+namespace HeThongQuanLyKyTucXa
 {
     public partial class QuanLyktx_1 : Form
     {
         SqlConnection connection;
         SqlCommand command;
-        string str = "Data Source=LAPTOP-SK2PBLD2;Initial Catalog=KTX_22;Integrated Security=True";
+        string str = "Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True";
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
 

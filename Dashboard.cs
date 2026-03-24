@@ -54,7 +54,8 @@ namespace HeThongQuanLyKyTucXa
 
         private void buttonPay_Click(object sender, EventArgs e)
         {
-
+            QuanLyktx_1 qlhd = new QuanLyktx_1();
+            qlhd.Show();
         }
 
         private void Dashboard_Load(object sender, EventArgs e)

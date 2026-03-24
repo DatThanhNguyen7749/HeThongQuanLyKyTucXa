@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp3
+﻿namespace HeThongQuanLyKyTucXa
 {
     partial class frmCapNhatDichVu
     {
@@ -122,7 +122,6 @@
             this.dgvDichVu.Size = new System.Drawing.Size(738, 212);
             this.dgvDichVu.TabIndex = 8;
             this.dgvDichVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDichVu_CellClick);
-            this.dgvDichVu.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDichVu_CellContentClick);
             // 
             // btnCapNhat
             // 

@@ -108,19 +108,14 @@ C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\De
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.ChangePassword.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.DangKyTaoTK.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.Dashboard.resources
-C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.DashboardAdmin.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.Login.resources
-C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.SinhVien.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.FormDangKyOKTX.resources
-C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.FormLogin2.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.FormQuenPassword.resources
-C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.FormThanhToan.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.FormTrangThaiPhongVaSV.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.HopDong.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.Properties.Resources.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.QuanLyHopDong.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.QuanLyPhong.resources
-C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.ThanhToanTrucTuyen.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.ThongTinTK.resources
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.csproj.GenerateResource.cache
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.csproj.CoreCompileInputs.cache
@@ -201,3 +196,5 @@ C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\bin\De
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQ.83563D00.Up2Date
+C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.frmCapNhatDichVu.resources
+C:\Users\lovey\OneDrive\Desktop\HeThongQuanLyKyTucXa\HeThongQuanLyKyTucXa\obj\Debug\HeThongQuanLyKyTucXa.QuanLyktx_1.resources

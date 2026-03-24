@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp3
+﻿namespace HeThongQuanLyKyTucXa
 {
     partial class QuanLyktx_1
     {

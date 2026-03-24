@@ -3,90 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlyktx_1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyktx_1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlyktx_1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyktx_1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlyktx_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyktx_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\frmcapnhatdichvu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:frmcapnhatdichvu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\frmcapnhatdichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:frmcapnhatdichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\frmcapnhatdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:frmcapnhatdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\frmcapnhatdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:frmcapnhatdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlyktx_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyktx_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlysinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlysinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\quanlyphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\quanlysinhvien.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlysinhvien.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HeThongQuanLyKyTucXa||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\dangkytaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dangkytaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|c:\\users\\lovey\\onedrive\\desktop\\hethongquanlykytucxa\\hethongquanlykytucxa\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -96,277 +66,183 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HopDong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.cs",
-              "RelativeDocumentMoniker": "HopDong.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.cs [Design]",
-              "RelativeToolTip": "HopDong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.364Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.374Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuanLySinhVien.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLySinhVien.Designer.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.Designer.cs",
-              "RelativeToolTip": "QuanLySinhVien.Designer.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAgwPAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:16:06.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuanLySinhVien.resx",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.resx",
-              "RelativeDocumentMoniker": "QuanLySinhVien.resx",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.resx",
-              "RelativeToolTip": "QuanLySinhVien.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-03-24T15:19:41.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs [Design]*",
-              "RelativeToolTip": "Dashboard.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.372Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs*",
-              "RelativeToolTip": "Dashboard.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.37Z",
+              "Title": "QuanLyktx_1.resx",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.resx",
+              "RelativeDocumentMoniker": "QuanLyktx_1.resx",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.resx",
+              "RelativeToolTip": "QuanLyktx_1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-24T16:10:55.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuanLyPhong.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLyPhong.Designer.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.Designer.cs",
-              "RelativeToolTip": "QuanLyPhong.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA3wNYAAAAyAAAAAAAAAA==",
+              "Title": "frmCapNhatDichVu.resx",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.resx",
+              "RelativeDocumentMoniker": "frmCapNhatDichVu.resx",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.resx",
+              "RelativeToolTip": "frmCapNhatDichVu.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-24T16:08:34.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyktx_1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.cs",
+              "RelativeDocumentMoniker": "QuanLyktx_1.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.cs [Design]",
+              "RelativeToolTip": "QuanLyktx_1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.374Z",
+              "WhenOpened": "2026-03-24T16:04:48.444Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyktx_1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyktx_1.Designer.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.Designer.cs",
+              "RelativeToolTip": "QuanLyktx_1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:05:09.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuanLySinhVien.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.cs",
-              "RelativeDocumentMoniker": "QuanLySinhVien.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLySinhVien.cs",
-              "RelativeToolTip": "QuanLySinhVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Title": "frmCapNhatDichVu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.Designer.cs",
+              "RelativeDocumentMoniker": "frmCapNhatDichVu.Designer.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.Designer.cs",
+              "RelativeToolTip": "frmCapNhatDichVu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:16:06.563Z",
+              "WhenOpened": "2026-03-24T16:08:26.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCapNhatDichVu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.cs",
+              "RelativeDocumentMoniker": "frmCapNhatDichVu.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.cs [Design]",
+              "RelativeToolTip": "frmCapNhatDichVu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:08:24.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HeThongQuanLyKyTucXa",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa.csproj",
-              "RelativeDocumentMoniker": "HeThongQuanLyKyTucXa.csproj",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa.csproj",
-              "RelativeToolTip": "HeThongQuanLyKyTucXa.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-24T14:50:32.754Z",
+              "Title": "frmCapNhatDichVu.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.cs",
+              "RelativeDocumentMoniker": "frmCapNhatDichVu.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\frmCapNhatDichVu.cs",
+              "RelativeToolTip": "frmCapNhatDichVu.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:08:52.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "QuanLyPhong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.cs",
-              "RelativeDocumentMoniker": "QuanLyPhong.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.cs [Design]",
-              "RelativeToolTip": "QuanLyPhong.cs [Design]",
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAlwDgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:51:14.966Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-24T16:04:04.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuanLyktx_1.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.cs",
+              "RelativeDocumentMoniker": "QuanLyktx_1.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyktx_1.cs",
+              "RelativeToolTip": "QuanLyktx_1.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAIA3wIQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:06:15.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "HopDong.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.cs",
-              "RelativeDocumentMoniker": "HopDong.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.cs",
-              "RelativeToolTip": "HopDong.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAwJkAAAAMAAAAAAAAAA==",
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:46:56.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T16:03:57.168Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "QuanLyPhong.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.cs",
-              "RelativeDocumentMoniker": "QuanLyPhong.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyPhong.cs",
-              "RelativeToolTip": "QuanLyPhong.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChangePassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "ChangePassword.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs [Design]",
-              "RelativeToolTip": "ChangePassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:24:58.644Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChangePassword.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "ChangePassword.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs",
-              "RelativeToolTip": "ChangePassword.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA5wCMAAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:25:02.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ThongTinTK.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ThongTinTK.cs",
-              "RelativeDocumentMoniker": "ThongTinTK.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ThongTinTK.cs [Design]",
-              "RelativeToolTip": "ThongTinTK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:24:48.673Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.366Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ThongTinTK.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ThongTinTK.cs",
-              "RelativeDocumentMoniker": "ThongTinTK.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ThongTinTK.cs",
-              "RelativeToolTip": "ThongTinTK.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxEAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T10:59:34.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Dashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.Designer.cs",
-              "RelativeDocumentMoniker": "Dashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Dashboard.Designer.cs",
-              "RelativeToolTip": "Dashboard.Designer.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAADwv2QAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T10:39:59.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HopDong.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.Designer.cs",
-              "RelativeDocumentMoniker": "HopDong.Designer.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\HopDong.Designer.cs",
-              "RelativeToolTip": "HopDong.Designer.cs",
-              "ViewState": "AgIAAIsCAAAAAAAAAADwv5oCAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T08:48:32.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "QuanLyHopDong.cs",
-              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyHopDong.cs",
-              "RelativeDocumentMoniker": "QuanLyHopDong.cs",
-              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyHopDong.cs",
-              "RelativeToolTip": "QuanLyHopDong.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "QuanLyHopDong.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyHopDong.cs",
               "RelativeDocumentMoniker": "QuanLyHopDong.cs",
               "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\QuanLyHopDong.cs [Design]",
               "RelativeToolTip": "QuanLyHopDong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T07:12:55.368Z",
+              "WhenOpened": "2026-03-24T16:01:00.883Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:00:57.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangKyTaoTK.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\DangKyTaoTK.cs",
+              "RelativeDocumentMoniker": "DangKyTaoTK.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\DangKyTaoTK.cs [Design]",
+              "RelativeToolTip": "DangKyTaoTK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:00:55.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "ChangePassword.cs",
+              "ToolTip": "C:\\Users\\lovey\\OneDrive\\Desktop\\HeThongQuanLyKyTucXa\\HeThongQuanLyKyTucXa\\ChangePassword.cs [Design]",
+              "RelativeToolTip": "ChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T16:00:53.839Z"
             }
           ]
         }

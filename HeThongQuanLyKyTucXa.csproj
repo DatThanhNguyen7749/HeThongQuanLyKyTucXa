@@ -165,11 +165,11 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashboardAdmin.cs">
+    <Compile Include="frmCapNhatDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashboardAdmin.Designer.cs">
-      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    <Compile Include="frmCapNhatDichVu.Designer.cs">
+      <DependentUpon>frmCapNhatDichVu.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -177,35 +177,17 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormDangKyOKTX.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDangKyOKTX.Designer.cs">
       <DependentUpon>FormDangKyOKTX.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLogin2.Designer.cs">
-      <DependentUpon>FormLogin2.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormQuenPassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormQuenPassword.Designer.cs">
       <DependentUpon>FormQuenPassword.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormThanhToan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormThanhToan.Designer.cs">
-      <DependentUpon>FormThanhToan.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTrangThaiPhongVaSV.cs">
       <SubType>Form</SubType>
@@ -233,6 +215,12 @@
     <Compile Include="QuanLyHopDong.Designer.cs">
       <DependentUpon>QuanLyHopDong.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyktx_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyktx_1.Designer.cs">
+      <DependentUpon>QuanLyktx_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,12 +232,6 @@
     </Compile>
     <Compile Include="QuanLySinhVien.Designer.cs">
       <DependentUpon>QuanLySinhVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThanhToanTrucTuyen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThanhToanTrucTuyen.Designer.cs">
-      <DependentUpon>ThanhToanTrucTuyen.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongTinTK.cs">
       <SubType>Form</SubType>
@@ -266,26 +248,17 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DashboardAdmin.resx">
-      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="frmCapNhatDichVu.resx">
+      <DependentUpon>frmCapNhatDichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormDangKyOKTX.resx">
       <DependentUpon>FormDangKyOKTX.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin2.resx">
-      <DependentUpon>FormLogin2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormQuenPassword.resx">
       <DependentUpon>FormQuenPassword.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormThanhToan.resx">
-      <DependentUpon>FormThanhToan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTrangThaiPhongVaSV.resx">
       <DependentUpon>FormTrangThaiPhongVaSV.cs</DependentUpon>
@@ -301,14 +274,14 @@
     <EmbeddedResource Include="QuanLyHopDong.resx">
       <DependentUpon>QuanLyHopDong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyktx_1.resx">
+      <DependentUpon>QuanLyktx_1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhong.resx">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLySinhVien.resx">
       <DependentUpon>QuanLySinhVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThanhToanTrucTuyen.resx">
-      <DependentUpon>ThanhToanTrucTuyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongTinTK.resx">
       <DependentUpon>ThongTinTK.cs</DependentUpon>

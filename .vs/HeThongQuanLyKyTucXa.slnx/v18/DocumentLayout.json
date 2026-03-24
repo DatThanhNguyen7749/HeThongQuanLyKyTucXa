@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|d:\\my project\\test\\hethongquanlyktx\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:thongtintk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\quanlysv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlysv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\quanlyphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016368CA-2EC8-412C-A66C-601E350A0773}|HeThongQuanLyKyTucXa.csproj|solutionrelative:quanlyphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HopDong.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\HopDong.cs",
+              "RelativeDocumentMoniker": "HopDong.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\HopDong.cs [Design]",
+              "RelativeToolTip": "HopDong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.364Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.374Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThongTinTK.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ThongTinTK.cs",
+              "RelativeDocumentMoniker": "ThongTinTK.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ThongTinTK.cs [Design]",
+              "RelativeToolTip": "ThongTinTK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:24:48.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "ChangePassword.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ChangePassword.cs",
+              "RelativeToolTip": "ChangePassword.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wCMAAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:25:02.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThongTinTK.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ThongTinTK.cs",
+              "RelativeDocumentMoniker": "ThongTinTK.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ThongTinTK.cs",
+              "RelativeToolTip": "ThongTinTK.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwv30AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:59:34.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.366Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChangePassword.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "ChangePassword.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\ChangePassword.cs [Design]",
+              "RelativeToolTip": "ChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:24:58.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAzwCoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.Designer.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Dashboard.Designer.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\Dashboard.Designer.cs",
+              "RelativeToolTip": "Dashboard.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2QAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:39:59.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HopDong.Designer.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\HopDong.Designer.cs",
+              "RelativeDocumentMoniker": "HopDong.Designer.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\HopDong.Designer.cs",
+              "RelativeToolTip": "HopDong.Designer.cs",
+              "ViewState": "AgIAAIsCAAAAAAAAAADwv5oCAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:48:32.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanLyHopDong.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyHopDong.cs",
+              "RelativeDocumentMoniker": "QuanLyHopDong.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyHopDong.cs",
+              "RelativeToolTip": "QuanLyHopDong.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanLyHopDong.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyHopDong.cs",
+              "RelativeDocumentMoniker": "QuanLyHopDong.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyHopDong.cs [Design]",
+              "RelativeToolTip": "QuanLyHopDong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuanLySV.cs [Design]",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLySV.cs",
+              "RelativeDocumentMoniker": "QuanLySV.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLySV.cs [Design]",
+              "RelativeToolTip": "QuanLySV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:36:08.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuanLyPhong.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyPhong.cs",
+              "RelativeToolTip": "QuanLyPhong.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuanLyPhong.Designer.cs",
+              "DocumentMoniker": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyPhong.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyPhong.Designer.cs",
+              "ToolTip": "D:\\MY PROJECT\\Test\\HeThongQuanLyKTX\\QuanLyPhong.Designer.cs",
+              "RelativeToolTip": "QuanLyPhong.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:12:55.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

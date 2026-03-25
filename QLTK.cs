@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace QLTK
+namespace HeThongQuanLyKyTucXa
 {
     public partial class QLTK : Form
     {

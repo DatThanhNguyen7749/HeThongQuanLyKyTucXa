@@ -153,12 +153,6 @@
     <Compile Include="ChangePassword.Designer.cs">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="DangKyTaoTK.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DangKyTaoTK.Designer.cs">
-      <DependentUpon>DangKyTaoTK.cs</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,23 +171,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDangKyOKTX.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDangKyOKTX.Designer.cs">
-      <DependentUpon>FormDangKyOKTX.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormQuenPassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormQuenPassword.Designer.cs">
       <DependentUpon>FormQuenPassword.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormTrangThaiPhongVaSV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTrangThaiPhongVaSV.Designer.cs">
-      <DependentUpon>FormTrangThaiPhongVaSV.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
     <Compile Include="HopDong.cs">
@@ -209,11 +191,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyHopDong.cs">
+    <Compile Include="QLTK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyHopDong.Designer.cs">
-      <DependentUpon>QuanLyHopDong.cs</DependentUpon>
+    <Compile Include="QLTK.Designer.cs">
+      <DependentUpon>QLTK.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLyktx_1.cs">
       <SubType>Form</SubType>
@@ -242,9 +224,6 @@
     <EmbeddedResource Include="ChangePassword.resx">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DangKyTaoTK.resx">
-      <DependentUpon>DangKyTaoTK.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -254,14 +233,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDangKyOKTX.resx">
-      <DependentUpon>FormDangKyOKTX.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormQuenPassword.resx">
       <DependentUpon>FormQuenPassword.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTrangThaiPhongVaSV.resx">
-      <DependentUpon>FormTrangThaiPhongVaSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HopDong.resx">
       <DependentUpon>HopDong.cs</DependentUpon>
@@ -271,8 +244,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyHopDong.resx">
-      <DependentUpon>QuanLyHopDong.cs</DependentUpon>
+    <EmbeddedResource Include="QLTK.resx">
+      <DependentUpon>QLTK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyktx_1.resx">
       <DependentUpon>QuanLyktx_1.cs</DependentUpon>

@@ -48,7 +48,7 @@ namespace HeThongQuanLyKyTucXa
             }
 
             // Kiểm tra username
-            string queryUser = "SELECT mat_khau FROM tai_khoan WHERE ten_dang_nhap = @user";
+            string queryUser = "SELECT mat_khau FROM tai_khoan WHERE ten_dang_nhap = @user COLLATE SQL_Latin1_General_CP1_CS_AS";
             SqlCommand cmdUser = new SqlCommand(queryUser, conn);
             cmdUser.Parameters.AddWithValue("@user", username);
 
@@ -82,7 +82,7 @@ namespace HeThongQuanLyKyTucXa
             string role = cmdRole.ExecuteScalar()?.ToString();
 
             //hiện form dashboard
-            Dashboard db = new Dashboard(role,username);
+            Dashboard db = new Dashboard(this, role,username);
             db.Show();
             this.Hide();
             //Hiện thông báo đăng nhập thành công

@@ -176,9 +176,6 @@ namespace HeThongQuanLyKyTucXa
             finally { connection.Close(); }
         }
 
-        private void btnXuatExcel_Click(object sender, EventArgs e)
-        {
-        }
         private void LoadComboBoxPhong()
         {
             string sql = "SELECT id, ma_phong FROM phong";
@@ -487,6 +484,44 @@ namespace HeThongQuanLyKyTucXa
             }
             catch { }
             finally { connection.Close(); }
+        }
+
+        private void btnCapNhat_Click(object sender, EventArgs e)
+        {
+            if (dgvHoaDon.CurrentRow == null)
+            {
+                MessageBox.Show("Vui lòng chọn hóa đơn!");
+                return;
+            }
+
+            try
+            {
+                if (connection.State == ConnectionState.Closed) connection.Open();
+
+                int idHD = Convert.ToInt32(dgvHoaDon.CurrentRow.Cells[0].Value);
+
+                string trangThai = radDaThanhToan.Checked ? "Đã thanh toán" : "Chưa thanh toán";
+
+                string sql = "UPDATE hoa_don_dich_vu SET trang_thai = @tt WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@tt", trangThai);
+                cmd.Parameters.AddWithValue("@id", idHD);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Cập nhật trạng thái thành công!");
+
+                loaddata();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }

@@ -83,7 +83,7 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.btnXuatExcel = new System.Windows.Forms.Button();
+            this.btnCapNhat = new System.Windows.Forms.Button();
             this.dgvHoaDon = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -697,7 +697,7 @@
             this.tableLayoutPanel5.Controls.Add(this.btnThem, 0, 1);
             this.tableLayoutPanel5.Controls.Add(this.btnXoa, 1, 1);
             this.tableLayoutPanel5.Controls.Add(this.btnClear, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.btnXuatExcel, 3, 1);
+            this.tableLayoutPanel5.Controls.Add(this.btnCapNhat, 3, 1);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 26);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
@@ -792,16 +792,17 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // btnXuatExcel
+            // btnCapNhat
             // 
-            this.btnXuatExcel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnXuatExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXuatExcel.Location = new System.Drawing.Point(369, 47);
-            this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(119, 39);
-            this.btnXuatExcel.TabIndex = 4;
-            this.btnXuatExcel.UseVisualStyleBackColor = true;
-            this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
+            this.btnCapNhat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCapNhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhat.Location = new System.Drawing.Point(369, 47);
+            this.btnCapNhat.Name = "btnCapNhat";
+            this.btnCapNhat.Size = new System.Drawing.Size(119, 39);
+            this.btnCapNhat.TabIndex = 4;
+            this.btnCapNhat.Text = "Cập nhật";
+            this.btnCapNhat.UseVisualStyleBackColor = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // dgvHoaDon
             // 
@@ -925,7 +926,12 @@
             this.ClientSize = new System.Drawing.Size(1038, 754);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1056, 801);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1056, 801);
             this.Name = "QuanLyktx_1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý hóa đơn";
             this.Load += new System.EventHandler(this.QuanLyktx_1_Load);
             this.tabPage1.ResumeLayout(false);
@@ -986,7 +992,7 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnXuatExcel;
+        private System.Windows.Forms.Button btnCapNhat;
         private System.Windows.Forms.RadioButton radDaThanhToan;
         private System.Windows.Forms.RadioButton radChuaThanhToan;
         private System.Windows.Forms.Label label13;

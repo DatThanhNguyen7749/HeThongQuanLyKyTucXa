@@ -99,6 +99,7 @@ namespace HeThongQuanLyKyTucXa
                sv.so_dien_thoai, sv.cccd,
                p.ma_phong,
                hd.ngay_bat_dau, hd.ngay_ket_thuc,
+                hd.gia_phong,
                hd.tinh_trang_hieu_luc, hd.tinh_trang_thanh_toan
                FROM hop_dong hd
                JOIN sinh_vien sv ON hd.sinh_vien_id = sv.id
@@ -118,7 +119,8 @@ namespace HeThongQuanLyKyTucXa
                dataGridView1.Columns["ma_phong"].HeaderText = "Số phòng";
                dataGridView1.Columns["ngay_bat_dau"].HeaderText = "Ngày lập";
                dataGridView1.Columns["ngay_ket_thuc"].HeaderText = "Ngày hết hạn";
-               dataGridView1.Columns["tinh_trang_hieu_luc"].HeaderText = "Tình trạng hiệu lực";
+                dataGridView1.Columns["gia_phong"].HeaderText = "Giá phòng";
+                dataGridView1.Columns["tinh_trang_hieu_luc"].HeaderText = "Tình trạng hiệu lực";
                dataGridView1.Columns["tinh_trang_thanh_toan"].HeaderText = "Tình trạng thanh toán";
             }
         }
@@ -302,7 +304,7 @@ namespace HeThongQuanLyKyTucXa
                 cmd.Parameters.AddWithValue("@bd", dateTimePickerNgayLap.Value);
                 cmd.Parameters.AddWithValue("@kt", dateTimePickerNgayHetHan.Value = dateTimePickerNgayLap.Value.AddMonths(6));
                 cmd.Parameters.AddWithValue("@tt", "Còn hiệu lực");
-                cmd.Parameters.AddWithValue("@gia", 30000);
+                cmd.Parameters.AddWithValue("@gia", textBoxGia.Text);
                 cmd.Parameters.AddWithValue("@tong", 30000);
                 cmd.Parameters.AddWithValue("@tttt", "Chưa thanh toán");
 

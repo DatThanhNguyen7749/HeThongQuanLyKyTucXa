@@ -373,6 +373,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1408, 666);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1408, 666);
             this.Name = "ThongTinTK";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin tài khoản";

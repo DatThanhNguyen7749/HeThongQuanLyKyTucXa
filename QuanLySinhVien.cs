@@ -15,15 +15,12 @@ namespace HeThongQuanLyKyTucXa
         public QuanLySinhVien()
         {
             InitializeComponent();
+            this.Load += QuanLySinhVien_Load;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void QuanLySinhVien_Load(object sender, EventArgs e)
         {
-            SetReadOnly(true);
-
-           
-
-            dataGridView1.DataSource = null; // không load lúc đầu
+            LoadData();
         }
 
         // ================= LOAD =================
@@ -41,7 +38,6 @@ namespace HeThongQuanLyKyTucXa
                 if (dataGridView1.Columns.Contains("id"))
                     dataGridView1.Columns["id"].Visible = false;
             }
-
             SetHeader();
         }
 
@@ -372,6 +368,12 @@ MessageBox.Show("Xóa thành công!",
         {
             dataGridView1.DataSource = null;
             ClearInput();
+        }
+
+        private void buttonReload_Click(object sender, EventArgs e)
+        {
+            ClearInput();
+            LoadData();
         }
     }
 }

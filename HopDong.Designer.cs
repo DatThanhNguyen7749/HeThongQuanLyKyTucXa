@@ -106,7 +106,7 @@
             // 
             // buttonReload
             // 
-            this.buttonReload.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonReload.BackColor = System.Drawing.Color.White;
             this.buttonReload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonReload.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonReload.Location = new System.Drawing.Point(7, 310);
@@ -137,7 +137,7 @@
             // 
             // buttonTimKiem
             // 
-            this.buttonTimKiem.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonTimKiem.BackColor = System.Drawing.Color.White;
             this.buttonTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("buttonTimKiem.Image")));
@@ -299,7 +299,6 @@
             this.textBoxGia.Location = new System.Drawing.Point(138, 154);
             this.textBoxGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxGia.Name = "textBoxGia";
-            this.textBoxGia.ReadOnly = true;
             this.textBoxGia.Size = new System.Drawing.Size(371, 30);
             this.textBoxGia.TabIndex = 77;
             this.textBoxGia.TextChanged += new System.EventHandler(this.textBoxGiaDV_TextChanged);
@@ -523,7 +522,7 @@
             // 
             // buttonFindSV
             // 
-            this.buttonFindSV.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonFindSV.BackColor = System.Drawing.Color.White;
             this.buttonFindSV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonFindSV.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFindSV.Image = ((System.Drawing.Image)(resources.GetObject("buttonFindSV.Image")));
@@ -696,6 +695,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.MaximumSize = new System.Drawing.Size(1829, 63);
+            this.panel2.MinimumSize = new System.Drawing.Size(1829, 63);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1829, 63);
             this.panel2.TabIndex = 79;
@@ -723,7 +724,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(1847, 969);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "HopDong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hợp Đồng";

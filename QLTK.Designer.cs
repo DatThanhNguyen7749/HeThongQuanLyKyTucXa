@@ -1,4 +1,4 @@
-﻿namespace QLTK
+﻿namespace HeThongQuanLyKyTucXa
 {
     partial class QLTK
     {
@@ -206,7 +206,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 24);
+            this.label9.Location = new System.Drawing.Point(13, 19);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(164, 22);
@@ -235,7 +235,7 @@
             // 
             // buttonThem
             // 
-            this.buttonThem.Image = global::QLTK.Properties.Resources.new_student;
+            this.buttonThem.Image = ((System.Drawing.Image)(resources.GetObject("buttonThem.Image")));
             this.buttonThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThem.Location = new System.Drawing.Point(21, 382);
             this.buttonThem.Name = "buttonThem";
@@ -346,6 +346,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1065, 715);
             this.Name = "QLTK";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý tài khoản";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

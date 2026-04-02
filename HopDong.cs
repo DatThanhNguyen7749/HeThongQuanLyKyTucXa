@@ -17,7 +17,7 @@ namespace HeThongQuanLyKyTucXa
     public partial class HopDong : Form
     {
         Form formTruoc;
-        string connStr = @"Data Source=.;Initial Catalog=QLKTX234;Integrated Security=True";
+        string connStr = @"Data Source=DESKTOP-3IIN6J5;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection conn = null;
         public HopDong(Form formBefore)
         {
@@ -69,11 +69,11 @@ namespace HeThongQuanLyKyTucXa
         {
             textBoxHoten.Clear();
             textBoxCCCD.Clear();
-            textBoxDiachi.Clear();
+            //textBoxDiachi.Clear();
             textBoxGia.Clear();
             textBoxMaHD.Clear();
-            textBoxMsv.Clear();
-            textBoxSDT.Clear();
+            comboBoxMSV.ResetText();
+            //textBoxSDT.Clear();
             textBoxSoLuongSV.Clear();
             comboBoxLoaiPhong.ResetText();
             comboBoxSoPhong.ResetText();
@@ -125,6 +125,18 @@ namespace HeThongQuanLyKyTucXa
             }
         }
 
+        void LoadSinhVien()
+        {
+            string query = "SELECT id, ma_sinh_vien, ten_sinh_vien, gioi_tinh, cccd FROM sinh_vien";
+            SqlDataAdapter da = new SqlDataAdapter(query, conn);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            comboBoxMSV.DataSource = dt;
+            comboBoxMSV.DisplayMember = "ma_sinh_vien";
+            comboBoxMSV.ValueMember = "id";
+        }
+
         //Du lieu bang data Phong
         void LoadPhong()
         {
@@ -138,17 +150,17 @@ namespace HeThongQuanLyKyTucXa
             comboBoxSoPhong.DisplayMember = "ma_phong"; // hiển thị
             comboBoxSoPhong.ValueMember = "id";         // giá trị thật
 
-            dataGridViewPhong.DataSource = dt;
-            dataGridViewPhong.Columns["id"].Visible = false;
-            dataGridViewPhong.Columns["ma_phong"].HeaderText = "Số phòng";
-            dataGridViewPhong.Columns["loai_phong"].HeaderText = "Loại phòng";
-            dataGridViewPhong.Columns["so_luong_sv"].HeaderText = "Số lượng (Tối đa 8 sv)";
+            //dataGridViewPhong.DataSource = dt;
+            //dataGridViewPhong.Columns["id"].Visible = false;
+            //dataGridViewPhong.Columns["ma_phong"].HeaderText = "Số phòng";
+            //dataGridViewPhong.Columns["loai_phong"].HeaderText = "Loại phòng";
+            //dataGridViewPhong.Columns["so_luong_sv"].HeaderText = "Số lượng (Tối đa 8 sv)";
         }
 
         void layDLFromDTGV(DataGridViewRow row)// lấy dữ liệu từ dòng được chọn hoặc có cùng dữ liệu cần tìm ở bảng dgv rồi đẩy lên controls
         {
             textBoxMaHD.Text = row.Cells["ma_hop_dong"].Value.ToString();
-            textBoxMsv.Text = row.Cells["ma_sinh_vien"].Value.ToString();
+            comboBoxMSV.Text = row.Cells["ma_sinh_vien"].Value.ToString();
             comboBoxSoPhong.Text = row.Cells["ma_phong"].Value.ToString();
             string queryPhong = "Select loai_phong ,so_luong_sv from phong where ma_phong = " + comboBoxSoPhong.Text;
             SqlDataAdapter daPhong = new SqlDataAdapter(queryPhong, conn);
@@ -173,8 +185,8 @@ namespace HeThongQuanLyKyTucXa
 
                 textBoxHoten.Text = rowSV["ten_sinh_vien"].ToString();
                 textBoxCCCD.Text = rowSV["cccd"].ToString();
-                textBoxSDT.Text = rowSV["so_dien_thoai"].ToString();
-                textBoxDiachi.Text = rowSV["dia_chi_thuong_tru"].ToString();
+                //textBoxSDT.Text = rowSV["so_dien_thoai"].ToString();
+                //textBoxDiachi.Text = rowSV["dia_chi_thuong_tru"].ToString();
 
                 if (rowSV["gioi_tinh"].ToString() == "Nam")
                     radioButtonNam_QLHD.Checked = true;
@@ -233,6 +245,8 @@ namespace HeThongQuanLyKyTucXa
 
             LoadPhong();
 
+            LoadSinhVien();
+
             CapNhatHopDongHetHan();
         }
 
@@ -259,8 +273,7 @@ namespace HeThongQuanLyKyTucXa
 
         private void buttonLapHopDong_Click(object sender, EventArgs e)
         {
-            if (textBoxMsv.Text == "" || textBoxHoten.Text == "" || textBoxCCCD.Text == ""
-                || textBoxDiachi.Text == "" || textBoxSDT.Text == "")
+            if (comboBoxMSV.Text == "" || textBoxHoten.Text == "" || textBoxCCCD.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin cần thiết!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -278,7 +291,7 @@ namespace HeThongQuanLyKyTucXa
                 // Lấy ID sinh viên
                 string sqlSV = "SELECT id FROM sinh_vien WHERE ma_sinh_vien = @msv";
                 SqlCommand cmdSV = new SqlCommand(sqlSV, conn);
-                cmdSV.Parameters.AddWithValue("@msv", textBoxMsv.Text);
+                cmdSV.Parameters.AddWithValue("@msv", comboBoxMSV.Text);
                 object svID = cmdSV.ExecuteScalar();
 
                 // Lấy ID phòng
@@ -478,22 +491,22 @@ namespace HeThongQuanLyKyTucXa
         }
 
         //Chọn dòng trong dataGridViewPhong
-        private void dataGridViewPhong_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (dataGridViewPhong.Rows.Count <= 1 || dataGridViewPhong.CurrentRow == null)
-            {
-                MessageBox.Show("Hiện không có dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            comboBoxSoPhong.Text = dataGridViewPhong.CurrentRow.Cells["ma_phong"].Value.ToString();
-            textBoxSoLuongSV.Text = dataGridViewPhong.CurrentRow.Cells["so_luong_sv"].Value.ToString();
-            comboBoxLoaiPhong.Text = dataGridViewPhong.CurrentRow.Cells["loai_phong"].Value.ToString();
-        }
+        //private void dataGridViewPhong_CellClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    if (dataGridViewPhong.Rows.Count <= 1 || dataGridViewPhong.CurrentRow == null)
+        //    {
+        //        MessageBox.Show("Hiện không có dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        return;
+        //    }
+        //    comboBoxSoPhong.Text = dataGridViewPhong.CurrentRow.Cells["ma_phong"].Value.ToString();
+        //    textBoxSoLuongSV.Text = dataGridViewPhong.CurrentRow.Cells["so_luong_sv"].Value.ToString();
+        //    comboBoxLoaiPhong.Text = dataGridViewPhong.CurrentRow.Cells["loai_phong"].Value.ToString();
+        //}
 
         //nút tìm kiếm sinh viên trong thông tin sinh viên
         private void buttonFindSV_Click(object sender, EventArgs e)
         {
-            if(textBoxMsv.Text == "")
+            if(comboBoxMSV.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập mã sinh viên trước!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -501,7 +514,7 @@ namespace HeThongQuanLyKyTucXa
 
             string query = "SELECT * FROM sinh_vien WHERE ma_sinh_vien = @msv";
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
-            da.SelectCommand.Parameters.AddWithValue("@msv", textBoxMsv.Text);
+            da.SelectCommand.Parameters.AddWithValue("@msv", comboBoxMSV.Text);
             DataTable dt = new DataTable();
             da.Fill(dt);
 
@@ -511,8 +524,6 @@ namespace HeThongQuanLyKyTucXa
 
                 textBoxHoten.Text = row["ten_sinh_vien"].ToString();
                 textBoxCCCD.Text = row["cccd"].ToString();
-                textBoxSDT.Text = row["so_dien_thoai"].ToString();
-                textBoxDiachi.Text = row["dia_chi_thuong_tru"].ToString();
 
                 if (row["gioi_tinh"].ToString() == "Nam")
                 {
@@ -582,6 +593,7 @@ namespace HeThongQuanLyKyTucXa
             CapNhatHopDongHetHan();
             LoadHopDong();
             LoadPhong();
+            LoadSinhVien();
         }
 
         //khi giá trị của ngay lap thay doi thi ngay het han cung thay doi
@@ -618,6 +630,35 @@ namespace HeThongQuanLyKyTucXa
         {
             DataGridViewRow row = dataGridView1.CurrentRow;
             layDLFromDTGV(row);
+        }
+
+        private void comboBoxMSV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBoxMSV.SelectedValue == null) return;
+            if (comboBoxMSV.SelectedValue is DataRowView) return;
+            if (comboBoxMSV.Text == "") return;
+
+            int sinhvienID = Convert.ToInt32(comboBoxMSV.SelectedValue);
+            string sqlFindSV = "SELECT ten_sinh_vien, gioi_tinh, cccd FROM sinh_vien WHERE id = @id";
+            SqlCommand cmdFindSV = new SqlCommand(sqlFindSV, conn);
+            cmdFindSV.Parameters.AddWithValue("@id", sinhvienID);
+            SqlDataReader reader = cmdFindSV.ExecuteReader();
+            string gioitinh;
+            if (reader.Read())
+            {
+                gioitinh = reader["gioi_tinh"].ToString();
+                if(gioitinh == "Nam")
+                {
+                    radioButtonNam_QLHD.Checked = true;
+                }
+                else if(gioitinh == "Nữ")
+                {
+                    radioButtonNu_QLHD.Checked = true;
+                }
+                textBoxHoten.Text = reader["ten_sinh_vien"].ToString();
+                textBoxCCCD.Text = reader["cccd"].ToString();
+            }
+            reader.Close();
         }
     }   
 }
